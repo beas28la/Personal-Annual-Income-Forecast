@@ -4,6 +4,21 @@
 The first part evaluates and compares the performance of various boosting algorithms combined with different feature selection methods for classification tasks. The analysis focuses on handling imbalanced data and optimizing model performance through feature engineering.
 The second part address the challenge of imbalanced datasets by using method like synthetic data generation techniques (SMOTE) & Applying class weights.
 
+## Dataset
+The analysis uses the Adult Income dataset, a real-world dataset for income prediction:
+
+### Adult Dataset
+- **Source**: Becker, B. & Kohavi, R. (1996). Adult [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5XW20
+- **Features**: 14 attributes including:
+  - **Numerical Features**: age, education-num, capital-gain, capital-loss, hours-per-week
+  - **Categorical Features**: workclass, education, marital-status, occupation, relationship, race, sex, native-country
+- **Target Variable**: Income level (>50K, ≤50K)
+- **Samples**: 48,842 instances
+- **Characteristics**: 
+  - Imbalanced dataset
+  - Mix of categorical and numerical features
+  - Real-world data with missing values
+
 ## Models and Methods
 
 ### Boosting Algorithms
