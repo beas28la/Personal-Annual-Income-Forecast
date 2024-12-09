@@ -2,7 +2,7 @@
 
 ## Overview
 The first part evaluates and compares the performance of various boosting algorithms combined with different feature selection methods for classification tasks. The analysis focuses on handling imbalanced data and optimizing model performance through feature engineering.
-The Second part address the challenge of imbalanced datasets by using method like synthetic data generation techniques (SMOTE) & Applying class weights.
+The second part address the challenge of imbalanced datasets by using method like synthetic data generation techniques (SMOTE) & Applying class weights.
 
 ## Models and Methods
 
